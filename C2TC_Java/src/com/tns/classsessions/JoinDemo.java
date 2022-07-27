@@ -27,7 +27,7 @@ public class JoinDemo{
 	public static void main(String[] args) throws InterruptedException { //Thread 2 Amol
 		MyThreadAdarsh a = new MyThreadAdarsh();
 		a.start();
-		a.join(3000, 1000);
+		a.join(3000,1000);
 		
 		for(int i=0; i<10; i++)
 		{
