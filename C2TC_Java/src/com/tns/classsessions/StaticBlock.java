@@ -1,6 +1,6 @@
 package com.tns.classsessions;
 
-public class staticBlock {
+public class StaticBlock {
 	static int a;
 
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class staticBlock {
 	static
 	{
 		System.out.println("India is best");
-		staticBlock.m();	
+		StaticBlock.m();	
 	}
 
 	static
