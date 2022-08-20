@@ -30,8 +30,8 @@ public class TreeSetDemo {
 		
 		
 		//Cursor
-		Iterator iterator = treeSet2.iterator(); //obtaining iterator object
-		while(iterator.hasNext()) { //to iterate through collection 
+		Iterator iterator = treeSet2.iterator();  //obtaining iterator object
+		while(iterator.hasNext()) {    //to iterate through collection 
 			Object object = iterator.next();
 			System.out.println(object + "\t");
 		}
