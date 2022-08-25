@@ -20,5 +20,6 @@ public class LargestNumberEx1
           largest=c>temp?c:temp;
                                                //prints the largest number
           System.out.println("The largest number is: "+largest);
+      
       }
 }
